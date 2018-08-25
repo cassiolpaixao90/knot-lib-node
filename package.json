@@ -14,7 +14,11 @@
     "postinstall": "babel esm --out-dir cjs",
     "build": "babel esm --out-dir cjs"
   },
-  "devDependencies": {
+  "dependencies": {
+    "is-base64": "0.0.6",
+    "lodash": "^4.17.10",
+    "meshblu": "^1.34.1",
+    "request": "^2.88.0",
     "babel-cli": "^6.26.0",
     "babel-plugin-add-module-exports": "^0.3.3",
     "babel-preset-env": "^1.7.0",
@@ -23,11 +27,5 @@
     "eslint-plugin-import": "^2.13.0",
     "eslint-plugin-jsx-a11y": "^6.1.0",
     "eslint-plugin-react": "^7.10.0"
-  },
-  "dependencies": {
-    "is-base64": "0.0.6",
-    "lodash": "^4.17.10",
-    "meshblu": "^1.34.1",
-    "request": "^2.88.0"
   }
 }
