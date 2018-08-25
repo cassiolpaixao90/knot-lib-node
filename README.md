@@ -38,7 +38,7 @@ const cloud = new KNoTCloud(
 async function main() {
   try {
     await cloud.connect();
-    const devices = cloud.getDevices();
+    const devices =  await cloud.getDevices();
     console.log(devices);
   } catch (err) {
     console.error(err);
