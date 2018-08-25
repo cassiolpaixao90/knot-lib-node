@@ -2,23 +2,24 @@
 
 A client side library that provides access to the KNoT Cloud for Node.js applications.
 
+# Fork knot-lib-node
+
+It's fork repository https://github.com/CESARBR/knot-lib-node
+
 # Getting started
 
 ## Install
 
 While it isn't available through NPM:
 
-```
-git clone https://github.com/CESARBR/knot-lib-node
-cd knot-lib-node
-npm install
-npm run build
-```
-
 Then, in your project root:
 
 ```
-npm install --save file:path/to/knot-lib-node
+"dependencies":{
+  "knot-cloud": "git+https://github.com/cassiolpaixao90/knot-lib-node.git"
+}
+
+npm i knot-cloud
 ```
 
 ## Quickstart
